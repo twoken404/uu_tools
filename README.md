@@ -28,6 +28,7 @@ usb-monitor/
 
 
 # 或手动打包
+```
 pyinstaller --onefile --noconsole --icon=u.png --name USBMonitor --add-data "usb_icon.png;." --add-data "u.png;." app_1.2.py
 ```
 
